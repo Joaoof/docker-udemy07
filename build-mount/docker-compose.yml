@@ -1,0 +1,25 @@
+version: '3.3'
+
+services:
+  db: # Container de MySQL
+    image: mysql-compose # FROM mysql:5.7 (como se fosse a imagem do dockerfile)
+    restart: always 
+    env_file: # variaveis de ambiente 
+      - ./config/db.env
+    ports:
+      - "3306:3006"
+    networks:
+      - dockercompose
+
+  backend:
+    depends_on:
+      - db
+    image: flask-compose
+    ports:
+      - "5003:5000"
+    restart: always
+    networks:
+      - dockercompose
+
+networks:
+   dockercompose:
