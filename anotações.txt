@@ -1,0 +1,5 @@
+# Iniciando no docker Swarm
+
+docker init swarm --advertise-addr (ip)
+
+obs: em alguns casos necessários, o "--advertise-addr (ip)" deve ser inserido
