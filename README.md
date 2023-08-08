@@ -21,3 +21,7 @@ no exemplo desse projeto, ficaria assim:
 
 * sudo docker stack deploy -c docker-compose.yml nginx_swarm
 
+# Escalando nossa aplicação (em 3 maquinas)
+
+ * docker service scale nginx_swarm_web=3
+
