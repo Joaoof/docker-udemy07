@@ -25,3 +25,9 @@ no exemplo desse projeto, ficaria assim:
 
  * docker service scale nginx_swarm_web=3
 
+# Parar de receber Tasks em um Node
+
+* docker node update --availability drain (id do node ls )
+
+![comando na pratica](<Captura de tela 2023-08-08 171949-1.png>)
+
