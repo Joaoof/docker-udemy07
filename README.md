@@ -13,3 +13,7 @@ no exemplo desse projeto, ficaria assim:
 
 * docker service create --name nginxreplicas --replicas 3 -p 80:80
 
+# Token para Join
+
+docker swarm join-token manager
+
