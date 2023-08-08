@@ -7,4 +7,4 @@ Docker - Compose
 # Manager Node: Node que gerencia os demais Nodes
 # Worker Node: trabalham em função do Manager
 # Service: Um conjunto de Tasks que o Manager Node manda o Work Node executar;
-# Task: Comandos que são executad=os nos Nodes;
+# Task: Comandos que são executados nos Nodes;
