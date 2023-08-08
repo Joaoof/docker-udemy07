@@ -31,3 +31,9 @@ no exemplo desse projeto, ficaria assim:
 
 ![comando na pratica](<Captura de tela 2023-08-08 171949-1.png>)
 
+# Atualizando uma imagem no Swarm
+
+* sudo docker service update --image nginx:1.18 pdq
+
+![nsnsn](<Captura de tela 2023-08-08 174013.png>)
+
