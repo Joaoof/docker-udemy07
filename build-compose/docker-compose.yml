@@ -1,0 +1,25 @@
+version: '3.3'
+
+services:
+  db: # Container de MySQL
+    build: ./mysql/
+    restart: always 
+    env_file: # variaveis de ambiente 
+      - ./config/db.env
+    ports:
+      - "3306:3006"
+    networks:
+      - dockercompose
+
+  backend:
+    depends_on:
+      - db
+    build: ./flask/
+    ports:
+      - "5004:5000"
+    restart: always
+    networks:
+      - dockercompose
+
+networks:
+   dockercompose:
