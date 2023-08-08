@@ -1,11 +1,11 @@
 # Iniciando no docker Swarm
 
 docker init swarm --advertise-addr (ip) --> node 1
+obs: em alguns casos necessários, o "--advertise-addr (ip)" deve ser inserido
 
 docker swarm join --token SWMTKN-1-27n7zv6rtp8e07vrnmetv29ypv3y3a3hl03d6zrqkpgropj699-79qnbmcgngs36bdde2rmg5kgy 192.168.0.28:2377 --> distribuir isso nas outras maquinas (ex; node2, node3, e vice versa...)
 
 
-obs: em alguns casos necessários, o "--advertise-addr (ip)" deve ser inserido
 
 replicando maquinas: 
 
