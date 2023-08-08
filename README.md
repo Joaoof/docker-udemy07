@@ -15,9 +15,9 @@ no exemplo desse projeto, ficaria assim:
 
 # Token para Join
 
-docker swarm join-token manager
+* docker swarm join-token manager
 
 # Rodando Compose com Swarm
 
-sudo docker stack deploy -c docker-compose.yml nginx_swarm
+* sudo docker stack deploy -c docker-compose.yml nginx_swarm
 
