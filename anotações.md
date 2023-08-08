@@ -13,5 +13,4 @@ docker service create --name (nome do service) --replicas (numero de maquinas) -
 
 no exemplo desse projeto, ficaria assim: 
 
-
 docker service create --name nginxreplicas --replicas 3 -p 80:80
