@@ -15,5 +15,5 @@ no exemplo desse projeto, ficaria assim:
 
 # Token para Join
 
-docker swarm join-token manager
+docker swarm join-token manager     
 
