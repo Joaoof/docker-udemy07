@@ -37,3 +37,15 @@ no exemplo desse projeto, ficaria assim:
 
 ![nsnsn](<Captura de tela 2023-08-08 174013.png>)
 
+# Criando redes para serviços do Swarm
+
+* docker network create --driver overlay swarm 
+
+# Conectando serviço a uma rede já existente 
+
+* docker service update --network-add (rede) (ID)
+`para adicionar o network, é necessário que você liste as networks.` ***Como fazer isso?*** 
+
+* docker network ls
+
+# Conclusão......Swarm
