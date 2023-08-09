@@ -74,3 +74,7 @@ no exemplo desse projeto, ficaria assim:
 `caso eu queira obter a url do minikube dashboard --url`
 
 * minibuke dashboard --url
+
+# Criando nosso Deploymet 
+
+* kucectl create deployment `<NOME>` --image=`<IMAGEM>`
