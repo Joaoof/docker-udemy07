@@ -49,3 +49,28 @@ no exemplo desse projeto, ficaria assim:
 * docker network ls
 
 # Conclusão......Swarm
+
+# <a href="https://www.supero.com.br/blog/kubernetes-vs-docker/">Iniciando Docker no Kubernetes</a>
+
+* Control Plane: Gerenciamento dos controles de processos do Nodes
+* Nodes: Maquinas que são gerenciadas pelo Control Plane
+* Deployment: A execução de uma imagem/projeto em um Pod
+* Pod: um ou mais containers que estão em um Node
+* Services: serviços que expõe os Pods ao mundo externo
+* kubectl: Cliente de linha de comando para o Kubernetes
+
+# Iniciando o Minikube
+
+* minikube start --driver=`<DRIVER>`  
+
+# Parando Minikube
+
+* minikube stop
+
+# Acessando a dashboard do Kubernetes
+
+* minikube dashboard 
+
+`caso eu queira obter a url do minikube dashboard --url`
+
+* minibuke dashboard --url
